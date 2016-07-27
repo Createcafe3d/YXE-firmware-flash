@@ -9,8 +9,8 @@ rm -rf src/build
 rm -f src/VERSION.py
 rm -f version.properties
 rm -rf src/dist
-rm -rf PeachyPrinterFirmwareAPI*.egg-info
-rm -rf PeachyPrinterFirmwareAPI*.tar.gz
+rm -rf YXE3DFirmwareAPI*.egg-info
+rm -rf YXE3DFirmwareAPI*.tar.gz
 rm -rf venv
 
 echo "------------------------------------"
@@ -77,7 +77,7 @@ if [ $? != 0 ]; then
     exit 56
 fi
 cd ..
-python -m pip install src/dist/PeachyPrinterFirmwareAPI-$VERSION.tar.gz
+python -m pip install src/dist/YXE3DFirmwareAPI-$VERSION.tar.gz
 if [ $? != 0 ]; then
     echo "package install fails"
     cd ..
@@ -103,7 +103,7 @@ fi
 echo "TESTS COMPLETE SUCCESS"
 
 
-mv src/dist/PeachyPrinterFirmwareAPI*.tar.gz .
+mv src/dist/YXE3DFirmwareAPI*.tar.gz .
 
 if [ $? != 0 ]; then
     echo "FAILED MOVE PACKAGE ABORTING"

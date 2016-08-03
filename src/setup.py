@@ -3,13 +3,13 @@ from setuptools.command.install import install as _Install
 from VERSION import version
 
 setup(
-    name='YXE3DFirmwareAPI',
+    name='PeachyPrinterFirmwareAPI',
     version=version,
-    description='Tool for updating the firmware of YXE3D',
+    description='Tool for updating the firmware of peachyprinter',
     options={},
-    url="http://www.YXE3D.com",
+    url="http://www.peachyprinter.com",
     author="Peachy Printer",
-    author_email="software+YXE3Dtools@YXE3D.com",
+    author_email="software+peachyprintertools@peachyprinter.com",
     install_requires=[],
     packages=['firmware', ],
     py_modules=['VERSION'],

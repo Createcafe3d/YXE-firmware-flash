@@ -9,7 +9,7 @@ echo ------------------------------------
 
 del /Q *.zip
 rmdir /S /Q src\build
-rmdir /S /Q src\YXE3DFirmwareAPI.egg-info
+rmdir /S /Q src\PeachyPrinterFirmwareAPI.egg-info
 rmdir /S /Q src\dist
 rmdir /S /Q venv
 
@@ -78,7 +78,7 @@ IF NOT "%ERRORLEVEL%" == "0" (
 )
 cd ..
 
-python -m pip install src/dist/YXE3DFirmwareAPI-%VERSION%.zip
+python -m pip install src/dist/PeachyPrinterFirmwareAPI-%VERSION%.zip
 IF NOT "%ERRORLEVEL%" == "0" (
     echo "FAILED PACKAGING INSTALL ABORTING"
     cd ..

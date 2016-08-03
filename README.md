@@ -9,7 +9,7 @@ Very Active Development (Unworking)
 Support
 --------------------------
 
-All support for Peachy Printer Tools located at http://forum.YXE3D.com/
+All support for Peachy Printer Tools located at http://forum.peachyprinter.com/
 
 
 Supported Environments
@@ -55,7 +55,7 @@ In order to be considered please ensure that:
 
 Please be aware that by contributing you agree to assignment of your copyrite to Peachy Printer INC. We do this for logistics and managment we will respect you freedoms and keep this source open.
 
-Need help contributing? Please check out the forums: http://forum.YXE3D.com/
+Need help contributing? Please check out the forums: http://forum.peachyprinter.com/
 
 
 Licence
